@@ -249,3 +249,4 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ })()
 ;
+(onhashchange=()=>{ const srh = document.getElementById('tsd-search-field'); srh.value=decodeURIComponent(location.hash.slice(1)); srh.focus(); srh.click(); })(); 
