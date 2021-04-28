@@ -1,0 +1,380 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "signature": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/typescript/lib/lib.webworker.d.ts": {
+        "version": "d236c5185ed53b51f7aae967ffdc8556aa1e38a2a116ed984cf40808f5724499",
+        "signature": "d236c5185ed53b51f7aae967ffdc8556aa1e38a2a116ed984cf40808f5724499",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/@types/assert/index.d.ts": {
+        "version": "2b025d1b6cf630d234194cff2712ee112fd9d280b55bd02f12297867ffb909c7",
+        "signature": "2b025d1b6cf630d234194cff2712ee112fd9d280b55bd02f12297867ffb909c7",
+        "affectsGlobalScope": false
+      },
+      "../../../typings/thenable.d.ts": {
+        "version": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "signature": "bfc76a4e61cdb6910c65287d4ca958d4a2e95b2e39aa3f0189a581eda3d30871",
+        "affectsGlobalScope": true
+      },
+      "../../common/messages.d.ts": {
+        "version": "447435030d7cea857a13e888e7f8528f9cb553d8eb0ecf1f05ed881662af34d0",
+        "signature": "447435030d7cea857a13e888e7f8528f9cb553d8eb0ecf1f05ed881662af34d0",
+        "affectsGlobalScope": false
+      },
+      "../../common/disposable.d.ts": {
+        "version": "f54f834381874b5e3a318c45ad479f786b1f7226dff41c50aeed2e827f08468d",
+        "signature": "f54f834381874b5e3a318c45ad479f786b1f7226dff41c50aeed2e827f08468d",
+        "affectsGlobalScope": false
+      },
+      "../../common/events.d.ts": {
+        "version": "f599aa2ff5002d97e51d22624f75cbd26e7289aabbb4ce75734c47f4ae2cab99",
+        "signature": "f599aa2ff5002d97e51d22624f75cbd26e7289aabbb4ce75734c47f4ae2cab99",
+        "affectsGlobalScope": false
+      },
+      "../../common/cancellation.d.ts": {
+        "version": "6e2fcd464b0b0191142c73274f10b5740479648e173ff8086fe835739ace0e94",
+        "signature": "6e2fcd464b0b0191142c73274f10b5740479648e173ff8086fe835739ace0e94",
+        "affectsGlobalScope": false
+      },
+      "../../common/encoding.d.ts": {
+        "version": "06868899ce3f7efcad260b0b724a0e5be130a7a27d9a1626235a6699594632fc",
+        "signature": "06868899ce3f7efcad260b0b724a0e5be130a7a27d9a1626235a6699594632fc",
+        "affectsGlobalScope": false
+      },
+      "../../common/ral.d.ts": {
+        "version": "1d9b6685cb6db1fb5075a8d14d3d13c9a0e1894f5140b568efc26d26ab7ee5b5",
+        "signature": "1d9b6685cb6db1fb5075a8d14d3d13c9a0e1894f5140b568efc26d26ab7ee5b5",
+        "affectsGlobalScope": false
+      },
+      "../../common/messagereader.d.ts": {
+        "version": "53f0535da91a56ecac31e039493698ce144864af8c02daa00e1ec2af48d7bd44",
+        "signature": "53f0535da91a56ecac31e039493698ce144864af8c02daa00e1ec2af48d7bd44",
+        "affectsGlobalScope": false
+      },
+      "../../common/messagewriter.d.ts": {
+        "version": "411c8ce5d4b118efaec564ea317272f6aaac156c7c248feae5fb6a3eed96d335",
+        "signature": "411c8ce5d4b118efaec564ea317272f6aaac156c7c248feae5fb6a3eed96d335",
+        "affectsGlobalScope": false
+      },
+      "../../common/connection.d.ts": {
+        "version": "cac22314c91c5a515f47ee425bbb60ef97cc4b38c79146a2f08928d238576c32",
+        "signature": "cac22314c91c5a515f47ee425bbb60ef97cc4b38c79146a2f08928d238576c32",
+        "affectsGlobalScope": false
+      },
+      "../../common/api.d.ts": {
+        "version": "be2edb0e0f71d1bea773f3e490d5a8b1c1f379fa3f4e49ebcea3bfc1a0f68d2c",
+        "signature": "be2edb0e0f71d1bea773f3e490d5a8b1c1f379fa3f4e49ebcea3bfc1a0f68d2c",
+        "affectsGlobalScope": false
+      },
+      "../main.d.ts": {
+        "version": "603dcc785b1d940c2aea6ad0fbec15a36467918327fc3fd7469b37cd97944505",
+        "signature": "603dcc785b1d940c2aea6ad0fbec15a36467918327fc3fd7469b37cd97944505",
+        "affectsGlobalScope": false
+      },
+      "../ril.d.ts": {
+        "version": "65d3a95daefcd2172473c2e713abda195116481389cd52d524ff2a9e69f29acc",
+        "signature": "65d3a95daefcd2172473c2e713abda195116481389cd52d524ff2a9e69f29acc",
+        "affectsGlobalScope": false
+      },
+      "../../../src/browser/test/test.ts": {
+        "version": "34bc5f473cdcd32934720abe36f2415d4e40eba7319253e77693a92a58be1c10",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../../../src/browser/test/worker.ts": {
+        "version": "84245926b565127eea86c70b1fef86a71417d5e5c5941ff4b34e6b0ff27f3da8",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/@types/mocha/index.d.ts": {
+        "version": "4862143e5418707aff61e5377e99300af3abcaa705a4a20908ca565bbe9e50d1",
+        "signature": "4862143e5418707aff61e5377e99300af3abcaa705a4a20908ca565bbe9e50d1",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "types": [
+        "mocha"
+      ],
+      "incremental": true,
+      "composite": true,
+      "sourceMap": true,
+      "declaration": true,
+      "stripInternal": true,
+      "target": 4,
+      "module": 1,
+      "moduleResolution": 2,
+      "lib": [
+        "lib.es2017.d.ts",
+        "lib.webworker.d.ts"
+      ],
+      "tsBuildInfoFile": "./watch.tsbuildInfo",
+      "rootDir": "../../../src/browser/test",
+      "outDir": "./",
+      "assumeChangesOnlyAffectDirectDependencies": true,
+      "watch": true,
+      "configFilePath": "../../../src/browser/test/tsconfig-watch.json"
+    },
+    "referencedMap": {
+      "../main.d.ts": [
+        "../../common/api.d.ts"
+      ],
+      "../ril.d.ts": [
+        "../../common/ral.d.ts"
+      ],
+      "../../common/api.d.ts": [
+        "../../../typings/thenable.d.ts",
+        "../../common/cancellation.d.ts",
+        "../../common/connection.d.ts",
+        "../../common/disposable.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messagereader.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/messagewriter.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/cancellation.d.ts": [
+        "../../common/disposable.d.ts",
+        "../../common/events.d.ts"
+      ],
+      "../../common/connection.d.ts": [
+        "../../common/cancellation.d.ts",
+        "../../common/disposable.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messagereader.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/messagewriter.d.ts"
+      ],
+      "../../common/encoding.d.ts": [
+        "../../common/messages.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/events.d.ts": [
+        "../../common/disposable.d.ts"
+      ],
+      "../../common/messagereader.d.ts": [
+        "../../common/api.d.ts",
+        "../../common/encoding.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/messagewriter.d.ts": [
+        "../../common/encoding.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/ral.d.ts": [
+        "../../common/disposable.d.ts",
+        "../../common/encoding.d.ts"
+      ],
+      "../../../src/browser/test/test.ts": [
+        "../../../../node_modules/@types/assert/index.d.ts",
+        "../../common/api.d.ts",
+        "../main.d.ts",
+        "../ril.d.ts"
+      ],
+      "../../../src/browser/test/worker.ts": [
+        "../../common/messages.d.ts",
+        "../main.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../main.d.ts": [
+        "../../common/api.d.ts"
+      ],
+      "../ril.d.ts": [
+        "../../common/ral.d.ts"
+      ],
+      "../../common/api.d.ts": [
+        "../../../typings/thenable.d.ts",
+        "../../common/cancellation.d.ts",
+        "../../common/connection.d.ts",
+        "../../common/disposable.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messagereader.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/messagewriter.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/cancellation.d.ts": [
+        "../../common/disposable.d.ts",
+        "../../common/events.d.ts"
+      ],
+      "../../common/connection.d.ts": [
+        "../../common/cancellation.d.ts",
+        "../../common/disposable.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messagereader.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/messagewriter.d.ts"
+      ],
+      "../../common/encoding.d.ts": [
+        "../../common/messages.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/events.d.ts": [
+        "../../common/disposable.d.ts"
+      ],
+      "../../common/messagereader.d.ts": [
+        "../../common/api.d.ts",
+        "../../common/encoding.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/messagewriter.d.ts": [
+        "../../common/encoding.d.ts",
+        "../../common/events.d.ts",
+        "../../common/messages.d.ts",
+        "../../common/ral.d.ts"
+      ],
+      "../../common/ral.d.ts": [
+        "../../common/disposable.d.ts",
+        "../../common/encoding.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../main.d.ts",
+      "../ril.d.ts",
+      "../../common/api.d.ts",
+      "../../common/cancellation.d.ts",
+      "../../common/connection.d.ts",
+      "../../common/disposable.d.ts",
+      "../../common/encoding.d.ts",
+      "../../common/events.d.ts",
+      "../../common/messagereader.d.ts",
+      "../../common/messages.d.ts",
+      "../../common/messagewriter.d.ts",
+      "../../common/ral.d.ts",
+      "../../../src/browser/test/test.ts",
+      "../../../src/browser/test/worker.ts",
+      "../../../typings/thenable.d.ts",
+      "../../../../node_modules/@types/assert/index.d.ts",
+      "../../../../node_modules/@types/mocha/index.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../node_modules/typescript/lib/lib.webworker.d.ts"
+    ]
+  },
+  "version": "4.1.2"
+}

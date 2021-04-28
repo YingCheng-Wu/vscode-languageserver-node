@@ -1,0 +1,106 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "signature": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/@types/assert/index.d.ts": {
+        "version": "2b025d1b6cf630d234194cff2712ee112fd9d280b55bd02f12297867ffb909c7",
+        "signature": "2b025d1b6cf630d234194cff2712ee112fd9d280b55bd02f12297867ffb909c7",
+        "affectsGlobalScope": false
+      },
+      "../main.d.ts": {
+        "version": "c78bfa93b3d1877a9a22f760ead05ad1c7b27aa179c745821f1fc455c9cd8827",
+        "signature": "c78bfa93b3d1877a9a22f760ead05ad1c7b27aa179c745821f1fc455c9cd8827",
+        "affectsGlobalScope": false
+      },
+      "../../../src/test/edits.test.ts": {
+        "version": "ebc16d677259d028845b72f500914fd4ec1ecb773fb9127c3ef145836feb9e29",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../../../src/test/textdocument.test.ts": {
+        "version": "8c51af87e2a83831880302597d418592626b4b905615af7b83d4722b65ca0ef6",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../../../src/test/typeguards.test.ts": {
+        "version": "d37ab99035f567603d04d880709e96a877e8d1dd245d035ebffbeb743898dcdb",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "../../../../node_modules/@types/mocha/index.d.ts": {
+        "version": "4862143e5418707aff61e5377e99300af3abcaa705a4a20908ca565bbe9e50d1",
+        "signature": "4862143e5418707aff61e5377e99300af3abcaa705a4a20908ca565bbe9e50d1",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "types": [
+        "mocha"
+      ],
+      "incremental": true,
+      "tsBuildInfoFile": "./compile.tsbuildInfo",
+      "rootDir": "../../../src/test",
+      "outDir": "./",
+      "configFilePath": "../../../src/test/tsconfig.json"
+    },
+    "referencedMap": {
+      "../../../src/test/edits.test.ts": [
+        "../../../../node_modules/@types/assert/index.d.ts",
+        "../main.d.ts"
+      ],
+      "../../../src/test/textdocument.test.ts": [
+        "../../../../node_modules/@types/assert/index.d.ts",
+        "../main.d.ts"
+      ],
+      "../../../src/test/typeguards.test.ts": [
+        "../../../../node_modules/@types/assert/index.d.ts",
+        "../main.d.ts"
+      ]
+    },
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "../../../../node_modules/@types/assert/index.d.ts",
+      "../../../../node_modules/@types/mocha/index.d.ts",
+      "../../../../node_modules/typescript/lib/lib.d.ts",
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../../../../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../main.d.ts",
+      "../../../src/test/edits.test.ts",
+      "../../../src/test/textdocument.test.ts",
+      "../../../src/test/typeguards.test.ts"
+    ]
+  },
+  "version": "4.1.2"
+}

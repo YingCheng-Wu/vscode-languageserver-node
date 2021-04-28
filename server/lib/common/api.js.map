@@ -1,0 +1,1 @@
+{"version":3,"file":"api.js","sourceRoot":"","sources":["../../src/common/api.ts"],"names":[],"mappings":";AAAA;;;gGAGgG;;;;;;;;;;;;;AAGhG,qDAAyD;AAKhD,sGALA,sCAAqB,OAKA;AAF9B,kEAAgD;AAGhD,2CAAyB;AAEzB,+DAAmF;AACnF,IAAiB,gBAAgB,CAOhC;AAPD,WAAiB,gBAAgB;IACnB,oBAAG,GAAwD;QACvE,OAAO,EAAE,UAAU;QACnB,SAAS,EAAE,uCAAiB;KAC5B,CAAC;AAGH,CAAC,EAPgB,gBAAgB,GAAhB,wBAAgB,KAAhB,wBAAgB,QAOhC"}

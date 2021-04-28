@@ -1,0 +1,576 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>CompletionItem | vscode-languageserver</title>
+	<meta name="description" content="Documentation for vscode-languageserver">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">vscode-languageserver</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">vscode-languageserver</a>
+				</li>
+				<li>
+					<a href="completionitem.html">CompletionItem</a>
+				</li>
+			</ul>
+			<h1>Interface CompletionItem</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A completion item represents a text snippet that is
+						proposed to complete text that is being typed.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">CompletionItem</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#additionaltextedits" class="tsd-kind-icon">additional<wbr>Text<wbr>Edits</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#command" class="tsd-kind-icon">command</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#commitcharacters" class="tsd-kind-icon">commit<wbr>Characters</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#data" class="tsd-kind-icon">data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#deprecated" class="tsd-kind-icon">deprecated</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#detail" class="tsd-kind-icon">detail</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#documentation" class="tsd-kind-icon">documentation</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#filtertext" class="tsd-kind-icon">filter<wbr>Text</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#inserttext" class="tsd-kind-icon">insert<wbr>Text</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#inserttextformat" class="tsd-kind-icon">insert<wbr>Text<wbr>Format</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#inserttextmode" class="tsd-kind-icon">insert<wbr>Text<wbr>Mode</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#kind" class="tsd-kind-icon">kind</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#label" class="tsd-kind-icon">label</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#labeldetails" class="tsd-kind-icon">label<wbr>Details</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#preselect" class="tsd-kind-icon">preselect</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#sorttext" class="tsd-kind-icon">sort<wbr>Text</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#tags" class="tsd-kind-icon">tags</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="completionitem.html#textedit" class="tsd-kind-icon">text<wbr>Edit</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="additionaltextedits" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> additional<wbr>Text<wbr>Edits</h3>
+					<div class="tsd-signature tsd-kind-icon">additional<wbr>Text<wbr>Edits<span class="tsd-signature-symbol">:</span> <a href="textedit.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEdit</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1385">types/lib/umd/main.d.ts:1385</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An optional array of additional <a href="#TextEdit">text edits</a> that are applied when
+								selecting this completion. Edits must not overlap (including the same insert position)
+							with the main <a href="#CompletionItem.textEdit">edit</a> nor with themselves.</p>
+						</div>
+						<p>Additional text edits should be used to change text unrelated to the current cursor position
+							(for example adding an import statement at the top of the file if the completion item will
+						insert an unqualified type).</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="command" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> command</h3>
+					<div class="tsd-signature tsd-kind-icon">command<span class="tsd-signature-symbol">:</span> <a href="command.html" class="tsd-signature-type" data-tsd-kind="Interface">Command</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1397">types/lib/umd/main.d.ts:1397</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An optional <a href="#Command">command</a> that is executed <em>after</em> inserting this completion. <em>Note</em> that
+								additional modifications to the current document should be described with the
+							<a href="#CompletionItem.additionalTextEdits">additionalTextEdits</a>-property.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="commitcharacters" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> commit<wbr>Characters</h3>
+					<div class="tsd-signature tsd-kind-icon">commit<wbr>Characters<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1391">types/lib/umd/main.d.ts:1391</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An optional set of characters that when pressed while this completion is active will accept it first and
+								then type that character. <em>Note</em> that all commit characters should have <code>length=1</code> and that superfluous
+							characters will be ignored.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="data" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> data</h3>
+					<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1402">types/lib/umd/main.d.ts:1402</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A data entry field that is preserved on a completion item between a
+							<a href="#CompletionRequest">CompletionRequest</a> and a <a href="#CompletionResolveRequest">CompletionResolveRequest</a>.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="deprecated" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> deprecated</h3>
+					<div class="tsd-signature tsd-kind-icon">deprecated<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1309">types/lib/umd/main.d.ts:1309</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if this item is deprecated.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>deprecated</dt>
+							<dd><p>Use <code>tags</code> instead.</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="detail" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> detail</h3>
+					<div class="tsd-signature tsd-kind-icon">detail<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1300">types/lib/umd/main.d.ts:1300</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A human-readable string with additional information
+							about this item, like type or symbol information.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="documentation" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> documentation</h3>
+					<div class="tsd-signature tsd-kind-icon">documentation<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="markupcontent.html" class="tsd-signature-type" data-tsd-kind="Interface">MarkupContent</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1304">types/lib/umd/main.d.ts:1304</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A human-readable string that represents a doc-comment.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="filtertext" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> filter<wbr>Text</h3>
+					<div class="tsd-signature tsd-kind-icon">filter<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1329">types/lib/umd/main.d.ts:1329</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A string that should be used when filtering a set of
+								completion items. When <code>falsy</code> the <a href="#CompletionItem.label">label</a>
+							is used.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="inserttext" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> insert<wbr>Text</h3>
+					<div class="tsd-signature tsd-kind-icon">insert<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1342">types/lib/umd/main.d.ts:1342</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A string that should be inserted into a document when selecting
+								this completion. When <code>falsy</code> the <a href="#CompletionItem.label">label</a>
+							is used.</p>
+						</div>
+						<p>The <code>insertText</code> is subject to interpretation by the client side.
+							Some tools might not take the string literally. For example
+							VS Code when code complete is requested in this example <code>con&lt;cursor position&gt;</code>
+							and a completion item with an <code>insertText</code> of <code>console</code> is provided it
+							will only insert <code>sole</code>. Therefore it is recommended to use <code>textEdit</code> instead
+						since it avoids additional client side interpretation.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="inserttextformat" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> insert<wbr>Text<wbr>Format</h3>
+					<div class="tsd-signature tsd-kind-icon">insert<wbr>Text<wbr>Format<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">2</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">1</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1348">types/lib/umd/main.d.ts:1348</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The format of the insert text. The format applies to both the <code>insertText</code> property
+								and the <code>newText</code> property of a provided <code>textEdit</code>. If omitted defaults to
+							<code>InsertTextFormat.PlainText</code>.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="inserttextmode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> insert<wbr>Text<wbr>Mode</h3>
+					<div class="tsd-signature tsd-kind-icon">insert<wbr>Text<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">2</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">1</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1356">types/lib/umd/main.d.ts:1356</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>How whitespace and indentation is handled during completion
+								item insertion. If ignored the clients default value depends on
+							the <code>textDocument.completion.insertTextMode</code> client capability.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.16.0</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="kind" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> kind</h3>
+					<div class="tsd-signature tsd-kind-icon">kind<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">3</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">2</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">4</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">5</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">6</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">7</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">8</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">9</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">10</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">11</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">12</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">1</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">13</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">14</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">15</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">16</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">17</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">18</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">19</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">20</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">21</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">22</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">23</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">24</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">25</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1289">types/lib/umd/main.d.ts:1289</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The kind of this completion item. Based of the kind
+							an icon is chosen by the editor.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="label" class="tsd-anchor"></a>
+					<h3>label</h3>
+					<div class="tsd-signature tsd-kind-icon">label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1278">types/lib/umd/main.d.ts:1278</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The label of this completion item.</p>
+						</div>
+						<p>The label property is also by default the text that
+						is inserted when selecting this completion.</p>
+						<p>If label details are provided the label itself should
+						be an unqualified name of the completion item.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="labeldetails" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> label<wbr>Details</h3>
+					<div class="tsd-signature tsd-kind-icon">label<wbr>Details<span class="tsd-signature-symbol">:</span> <a href="completionitemlabeldetails.html" class="tsd-signature-type" data-tsd-kind="Interface">CompletionItemLabelDetails</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1284">types/lib/umd/main.d.ts:1284</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Additional details for the label</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.17.0 - proposed state</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="preselect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> preselect</h3>
+					<div class="tsd-signature tsd-kind-icon">preselect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1317">types/lib/umd/main.d.ts:1317</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Select this item when showing.</p>
+						</div>
+						<p><em>Note</em> that only one completion item can be selected and that the
+							tool / client decides which item that is. The rule is that the <em>first</em>
+						item of those that match best is selected.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sorttext" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> sort<wbr>Text</h3>
+					<div class="tsd-signature tsd-kind-icon">sort<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1323">types/lib/umd/main.d.ts:1323</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A string that should be used when comparing this item
+								with other items. When <code>falsy</code> the <a href="#CompletionItem.label">label</a>
+							is used.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="tags" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> tags</h3>
+					<div class="tsd-signature tsd-kind-icon">tags<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">1</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1295">types/lib/umd/main.d.ts:1295</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Tags for this completion item.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.15.0</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="textedit" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> text<wbr>Edit</h3>
+					<div class="tsd-signature tsd-kind-icon">text<wbr>Edit<span class="tsd-signature-symbol">:</span> <a href="textedit.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEdit</a><span class="tsd-signature-symbol"> | </span><a href="insertreplaceedit.html" class="tsd-signature-type" data-tsd-kind="Interface">InsertReplaceEdit</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/types/lib/umd/main.d.ts#L1375">types/lib/umd/main.d.ts:1375</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>An <a href="#TextEdit">edit</a> which is applied to a document when selecting
+								this completion. When an edit is provided the value of
+							<a href="#CompletionItem.insertText">insertText</a> is ignored.</p>
+						</div>
+						<p>Most editors support two different operation when accepting a completion item. One is to insert a
+							completion text and the other is to replace an existing text with a completion text. Since this can
+							usually not predetermined by a server it can report both ranges. Clients need to signal support for
+							<code>InsertReplaceEdits</code> via the <code>textDocument.completion.insertReplaceSupport</code> client capability
+						property.</p>
+						<p><em>Note 1:</em> The text edit&#39;s range as well as both ranges from a insert replace edit must be a
+							[single line] and they must contain the position at which completion has been requested.
+							<em>Note 2:</em> If an <code>InsertReplaceEdit</code> is returned the edit&#39;s insert range must be a prefix of
+						the edit&#39;s replace range, that means it must be contained and starting at the same position.</p>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.16.0 additional type <code>InsertReplaceEdit</code></p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
+						<a href="completionitem.html" class="tsd-kind-icon">Completion<wbr>Item</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#additionaltextedits" class="tsd-kind-icon">additional<wbr>Text<wbr>Edits</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#command" class="tsd-kind-icon">command</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#commitcharacters" class="tsd-kind-icon">commit<wbr>Characters</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#data" class="tsd-kind-icon">data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#deprecated" class="tsd-kind-icon">deprecated</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#detail" class="tsd-kind-icon">detail</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#documentation" class="tsd-kind-icon">documentation</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#filtertext" class="tsd-kind-icon">filter<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#inserttext" class="tsd-kind-icon">insert<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#inserttextformat" class="tsd-kind-icon">insert<wbr>Text<wbr>Format</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#inserttextmode" class="tsd-kind-icon">insert<wbr>Text<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#kind" class="tsd-kind-icon">kind</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#label" class="tsd-kind-icon">label</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#labeldetails" class="tsd-kind-icon">label<wbr>Details</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#preselect" class="tsd-kind-icon">preselect</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#sorttext" class="tsd-kind-icon">sort<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#tags" class="tsd-kind-icon">tags</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="completionitem.html#textedit" class="tsd-kind-icon">text<wbr>Edit</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

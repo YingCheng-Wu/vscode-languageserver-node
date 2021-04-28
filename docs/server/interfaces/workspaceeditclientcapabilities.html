@@ -1,0 +1,292 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>WorkspaceEditClientCapabilities | vscode-languageserver</title>
+	<meta name="description" content="Documentation for vscode-languageserver">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">vscode-languageserver</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">vscode-languageserver</a>
+				</li>
+				<li>
+					<a href="workspaceeditclientcapabilities.html">WorkspaceEditClientCapabilities</a>
+				</li>
+			</ul>
+			<h1>Interface WorkspaceEditClientCapabilities</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">WorkspaceEditClientCapabilities</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="workspaceeditclientcapabilities.html#changeannotationsupport" class="tsd-kind-icon">change<wbr>Annotation<wbr>Support</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="workspaceeditclientcapabilities.html#documentchanges" class="tsd-kind-icon">document<wbr>Changes</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="workspaceeditclientcapabilities.html#failurehandling" class="tsd-kind-icon">failure<wbr>Handling</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="workspaceeditclientcapabilities.html#normalizeslineendings" class="tsd-kind-icon">normalizes<wbr>Line<wbr>Endings</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="workspaceeditclientcapabilities.html#resourceoperations" class="tsd-kind-icon">resource<wbr>Operations</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="changeannotationsupport" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> change<wbr>Annotation<wbr>Support</h3>
+					<div class="tsd-signature tsd-kind-icon">change<wbr>Annotation<wbr>Support<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>groupsOnLabel<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/protocol/lib/common/protocol.d.ts#L2679">protocol/lib/common/protocol.d.ts:2679</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether the client in general supports change annotations on text edits,
+							create file, rename file and delete file changes.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.16.0</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter">
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> groups<wbr>OnLabel<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<div class="lead">
+										<p>Whether the client groups edits with equal labels into tree nodes,
+											for instance all edits labelled with &quot;Changes in Strings&quot; would
+										be a tree node.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="documentchanges" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> document<wbr>Changes</h3>
+					<div class="tsd-signature tsd-kind-icon">document<wbr>Changes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/protocol/lib/common/protocol.d.ts#L2648">protocol/lib/common/protocol.d.ts:2648</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The client supports versioned document changes in <code>WorkspaceEdit</code>s</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="failurehandling" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> failure<wbr>Handling</h3>
+					<div class="tsd-signature tsd-kind-icon">failure<wbr>Handling<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;abort&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;transactional&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;undo&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;textOnlyTransactional&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/protocol/lib/common/protocol.d.ts#L2662">protocol/lib/common/protocol.d.ts:2662</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The failure handling strategy of a client if applying the workspace edit
+							fails.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.13.0</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="normalizeslineendings" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> normalizes<wbr>Line<wbr>Endings</h3>
+					<div class="tsd-signature tsd-kind-icon">normalizes<wbr>Line<wbr>Endings<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/protocol/lib/common/protocol.d.ts#L2672">protocol/lib/common/protocol.d.ts:2672</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether the client normalizes line endings to the client specific
+								setting.
+								If set to <code>true</code> the client will normalize line ending characters
+								in a workspace edit containing to the client specific new line
+							character.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.16.0</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="resourceoperations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> resource<wbr>Operations</h3>
+					<div class="tsd-signature tsd-kind-icon">resource<wbr>Operations<span class="tsd-signature-symbol">:</span> <a href="../modules/resourceoperationkind.html" class="tsd-signature-type" data-tsd-kind="Namespace">ResourceOperationKind</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/YingCheng-Wu/vscode-languageserver-node/tree/main/protocol/lib/common/protocol.d.ts#L2655">protocol/lib/common/protocol.d.ts:2655</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The resource operations the client supports. Clients should at least
+							support &#39;create&#39;, &#39;rename&#39; and &#39;delete&#39; files and folders.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>3.13.0</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
+						<a href="workspaceeditclientcapabilities.html" class="tsd-kind-icon">Workspace<wbr>Edit<wbr>Client<wbr>Capabilities</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="workspaceeditclientcapabilities.html#changeannotationsupport" class="tsd-kind-icon">change<wbr>Annotation<wbr>Support</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="workspaceeditclientcapabilities.html#documentchanges" class="tsd-kind-icon">document<wbr>Changes</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="workspaceeditclientcapabilities.html#failurehandling" class="tsd-kind-icon">failure<wbr>Handling</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="workspaceeditclientcapabilities.html#normalizeslineendings" class="tsd-kind-icon">normalizes<wbr>Line<wbr>Endings</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="workspaceeditclientcapabilities.html#resourceoperations" class="tsd-kind-icon">resource<wbr>Operations</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
